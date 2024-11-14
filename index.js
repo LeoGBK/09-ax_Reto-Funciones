@@ -8,7 +8,7 @@ let verifica = (texto1, texto2, texto3) => {
     if (texto1 && texto2 && texto3) {
         console.log("¡Formulario enviado con éxito!");
     } else {
-        console.log("No están los 3 datos disponibles");
+        console.log("Por favor completa todos los campos");
     }
 }
 
